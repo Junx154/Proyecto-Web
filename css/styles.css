@@ -5,9 +5,11 @@
      --colorPrimario: #EC111A;
      --colorSecundario: #082BA5;
      --colorTerciario: #007bdf;
+     --colorCuaternario: #fff;
      --colorTitulos: #282D31;
      --colorParrafos: #53575A;
      --colorSombras: #282031;
+    
 }
 
     /* SELECTOR UNIVERSAL */
@@ -16,6 +18,8 @@
         margin: 0;
         box-sizing: border-box;
     }
+
+ 
 
     .titulo-2, .titulo-1{
         text-align: center;
@@ -38,6 +42,14 @@
         color: var(--colorPrimario);
         margin-top: -14px
         
+    }
+    
+    .titulo-5{
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 2em;
+        font-weight: 600;
+
     }
 
     .parrafo{
@@ -90,6 +102,7 @@
     box-shadow: 0px 0px 6px #000;
     
 }
+
 
 
 /* 1 em= 16px , 2 em= 32px , 3 em= 48px , 4 em= 62px  */
