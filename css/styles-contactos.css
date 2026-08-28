@@ -1,0 +1,75 @@
+:root{
+     --colorPrimario: #EC111A;
+     --colorSecundario: #082BA5;
+     --colorTerciario: #007bdf;
+     --colorCuaternario: #fff;
+     --colorTitulos: #282D31;
+     --colorParrafos: #53575A;
+     --colorSombras: #282031;
+    
+}
+
+    /* SELECTOR UNIVERSAL */
+    *{ 
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* "form" es una etiqueta, no una clase por eso no comienza con punto*/
+form{
+    padding: 1em;
+    background-color: #fff;
+    max-width: 10000px;
+    box-shadow: 0 0 6px var(--colorSombras);
+    margin: 12% auto;
+}
+
+/* "input" es una etiqueta, no una clase por eso no comienza con punto*/
+input{
+    width: 100%;
+    border: none;
+    border: 1.5px solid var(--colorPrimario);
+    /* margin-boton ayuda a separar */
+    margin-bottom: .5em;
+    border-radius: 4px; 
+    height: 2em;
+}
+textarea{
+    width: 100%;
+    max-height: 400px;
+    min-height: 200px;
+    border: 1.5px solid var(--colorPrimario);
+}
+
+.boton{
+    background-color: var(--colorPrimario);
+    color: #fff;
+    font-weight: 600;
+    transition: background-color .3s ease-in-out;
+}
+
+.boton:hover{
+    background-color: var(--colorSecundario);
+}
+
+.No{
+    color: #EC111A;
+    font-weight: 700;
+}
+
+.Cel{
+    color: #EC111A;
+    font-weight: 700;
+}
+
+.Co{
+    color: #EC111A;
+    font-weight: 700;
+}
