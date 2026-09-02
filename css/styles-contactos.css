@@ -16,11 +16,11 @@
         box-sizing: border-box;
     }
 
-body{
+/* body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 /* "form" es una etiqueta, no una clase por eso no comienza con punto*/
 form{
@@ -28,7 +28,7 @@ form{
     background-color: #fff;
     max-width: 10000px;
     box-shadow: 0 0 6px var(--colorSombras);
-    margin: 12% auto;
+    margin: auto;
 }
 
 /* "input" es una etiqueta, no una clase por eso no comienza con punto*/
